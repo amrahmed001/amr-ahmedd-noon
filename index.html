@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./noon.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >نون تسويق اونلاين</title></head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="https://z.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg" alt="نون" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#">الرئيسية</a></li>
+                        <li class="dropdown">
+                            <a href="#">الإلكترونيات</a>
+                            <div class="dropdown-content">
+                                <a href="#">الهواتف الذكية</a>
+                                <a href="#">أجهزة الكمبيوتر</a>
+                                <a href="#">الأجهزة اللوحية</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">الأزياء</a>
+                            <div class="dropdown-content">
+                                <a href="#">ملابس رجالية</a>
+                                <a href="#">ملابس نسائية</a>
+                                <a href="#">أحذية</a>
+                            </div>
+                        </li>
+                        <li><a href="#">المنزل والمطبخ</a></li>
+                        <li><a href="#">الجمال</a></li>
+                        <li><a href="#">العروض</a></li>
+                        <li><a href="#" id="login-button">تسجيل الدخول</a></li>
+                    </ul>
+                </nav>
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>تسوق بسهولة وأمان مع نون</h1>
+            <p>اكتشف آلاف المنتجات بأفضل الأسعار</p>
+            <a href="#featured-products" class="cta-button">تسوق الآن</a>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="ابحث عن المنتجات">
+            <button id="search-button">بحث</button>
+        </div>
+
+        <h2 class="section-title fade-in">الفئات المميزة</h2>
+        <div class="featured-categories">
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80" alt="الإلكترونيات">
+                <h3>الإلكترونيات</h3>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="الأزياء">
+                <h3>الأزياء</h3>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80" alt="المنزل والمطبخ">
+                <h3>المنزل والمطبخ</h3>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="الجمال">
+                <h3>الجمال</h3>
+            </div>
+        </div>
+
+        <h2 class="section-title fade-in">منتجات مميزة</h2>
+        <div id="featured-products" class="featured-products">
+            <!-- المنتجات ستضاف هنا ديناميكيًا -->
+        </div>
+
+        <div class="login-form fade-in">
+            <h2>تسجيل الدخول</h2>
+            <form id="login-form">
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <input type="password" placeholder="كلمة المرور" required>
+                <button type="submit">دخول</button>
+            </form>
+        </div>
+
+        <section id="newsletter" class="fade-in">
+            <h2>اشترك في نشرتنا البريدية</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                <button type="submit">اشترك</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#">عن نون</a></li>
+                        <li><a href="#">الوظائف</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>خدمة العملاء</h3>
+                    <ul>
+                        <li><a href="#">مركز المساعدة</a></li>
+                        <li><a href="#">كيفية الشراء</a></li>
+                        <li><a href="#">سياسة الاسترجاع</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تابعنا</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top">↑</a>
+
+    <div class="login-page">
+        <div class="close-login">&times;</div>
+        <form class="login-form">
+            <h2>تسجيل الدخول</h2>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit">دخول</button>
+        </form>
+    </div>
+
+    <script src="./noon.js" ></script>
+</body>
+</html>
+    
